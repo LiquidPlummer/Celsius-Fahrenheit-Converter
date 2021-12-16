@@ -10,7 +10,7 @@ export default function Celsius(props) {
         <>
             <h1>Celsius Temp: {props.temp.celsius}</h1>
             New Celsius Tempreture:
-            <input type="text" onChange={handleChange} />
+            <input type="text" value={props.temp.celsius} onChange={handleChange} />
         </>
     );
 

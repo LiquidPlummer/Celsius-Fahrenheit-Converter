@@ -11,6 +11,6 @@ export default function Farenheit(props) {
         <>
             <h1>Farenheit Temp: {props.temp.farenheit}</h1>
             New Farenheit Tempreture:
-            <input type="text" onChange={handleChange} />
+            <input type="text" value={props.temp.farenheit} onChange={handleChange} />
         </>
     )}
